@@ -2,5 +2,8 @@
   "dependencies": {
     "jest": "^26",
     "nuxt": "^2.12.2"
+  },
+  "resolutions": {
+    "esm": "./fake-esm"
   }
 }
