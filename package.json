@@ -5,5 +5,12 @@
   },
   "resolutions": {
     "esm": "./fake-esm"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testEnvironment": "node",
+    "testTimeout": 50000
   }
 }
