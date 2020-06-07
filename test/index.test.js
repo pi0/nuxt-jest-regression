@@ -1,5 +1,6 @@
-const { Nuxt } = require('nuxt')
+const { build, loadNuxt } = require('nuxt')
 
 test('init', async () => {
-  new Nuxt()
+  const nuxt = await loadNuxt({ for: 'build' })
+  await build(nuxt)
 })
